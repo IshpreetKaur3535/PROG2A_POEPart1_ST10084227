@@ -1,0 +1,17 @@
+Change Log
+-------------------------------
+Changes Made to Part 1 according to the feedback are as follow:
+	--> Added more expection handeling to the methods 
+		which calculates and checks the monthly home loan repayments
+	--> Changed the arrays to array list and store all the expenses using
+		the list not the array
+	--> Changed the totalExpensesCalculation() method,
+		previously this method was calculating the total of expenses by
+		adding the expenses values but now its adding the expenses using the list,
+		which makes the calculation easier to do and this way of doing caculation 
+		will also let us know whether the expeses are being stored in the list or not
+	--> Updated and changed the structure of readme file by adding the the software specs, 
+		author details and faqs and also added the code attribution at the end of the 
+		readme file.
+	--> Added the currency in front of the calucted values and user input values
+	--> Added more comments
