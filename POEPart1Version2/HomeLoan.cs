@@ -45,7 +45,7 @@ namespace POEPart1Version2
                 totalDeposit = float.Parse(Console.ReadLine());
             }
 
-            Console.Write("Please enter the Interest rate (percentage):");
+            Console.Write("Please enter the Interest rate (format 10.5% -> 10,5):");
             try
             {
                 interestRate = float.Parse(Console.ReadLine());

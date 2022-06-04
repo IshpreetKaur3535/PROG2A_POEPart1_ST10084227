@@ -15,7 +15,7 @@ namespace POEPart1Version2
         public static double totalDeposit { get; set; }
         public static double interestRate { get; set; }
         public static double estimatedPremium { get; set; }
-        public static double CarCost { get; set; }
+        public static double CarCost = 0;
 
         //declared the delegate method globally
         public delegate void notifyUsersDelegate(double totalExp, double income, double house, double car);
@@ -174,9 +174,8 @@ namespace POEPart1Version2
                 Console.WriteLine(count + ": R" + d.ToString("F"));
                 count++;
             }
-            Console.WriteLine("\nAccomodation cost: R" + HomeLoan.HomeLoanRepayment.ToString("F"));
-            Console.WriteLine("Car cost: R" + CarCost.ToString("F"));
-            Console.WriteLine("\n-------------------------------------------------------------------");
+           
+            
         }
 
 

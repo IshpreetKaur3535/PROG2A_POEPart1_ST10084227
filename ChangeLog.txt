@@ -15,3 +15,4 @@ Changes Made to Part 1 according to the feedback are as follow:
 		readme file.
 	--> Added the currency in front of the calucted values and user input values
 	--> Added more comments
+        --> Push my project to git hub

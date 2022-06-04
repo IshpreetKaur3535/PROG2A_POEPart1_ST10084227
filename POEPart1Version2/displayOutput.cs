@@ -103,16 +103,20 @@ namespace POEPart1Version2
                 Car car = new Car();//created a object of a Car class
                 car.buyCar(); // calling a method from a car class
                 Car.displayExpenses(); //calling a method from a car class
+                Console.WriteLine("\nAccomodation cost: R" + HomeLoan.HomeLoanRepayment.ToString("F"));
+                Console.WriteLine("Car cost: R" + Car.CarCost.ToString("F"));
+                Console.WriteLine("\n-------------------------------------------------------------------");
 
 
+            float availableMoney2 = 0;
                 if (typeAcc == "1")
                 {
-                    availableMoney = (float)(monthlyGrossIncome - (totalExpenseCalculation() + monthlyRental + car.calcMonthlyCost())); // calculate the available money after the total expendictures and monthly rental deductions have been made.
+                    availableMoney2 = (float)(monthlyGrossIncome - (totalExpenseCalculation() + monthlyRental + Car.CarCost)); // calculate the available money after the total expendictures and monthly rental deductions have been made.
 
                 }
                 else if (typeAcc == "2")
                 {
-                    availableMoney = (float)(monthlyGrossIncome - (totalExpenseCalculation() + HomeLoan.HomeLoanRepayment + car.calcMonthlyCost())); // calculate the available money after the total expendictures and monthly home loan repayment deductions have been made.
+                    availableMoney2 = (float)(monthlyGrossIncome - (totalExpenseCalculation() + HomeLoan.HomeLoanRepayment + Car.CarCost)); // calculate the available money after the total expendictures and monthly home loan repayment deductions have been made.
                 }
                 Console.WriteLine();
                 Console.WriteLine("Final Amount Available");
@@ -120,12 +124,12 @@ namespace POEPart1Version2
                 Console.WriteLine("Calculating Available Monthly Money . . .");
                 Thread.Sleep(4000); // holds the screen for 4sec
                 Console.BackgroundColor = ConsoleColor.Red;
-                Console.WriteLine("After all deductions you will have:  R{0} ", availableMoney); // display the avaible money based on which choice does a user made 
+                Console.WriteLine("After all deductions you will have:  R{0} ", availableMoney2); // display the avaible money based on which choice does a user made 
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("==========================================================================================================");
             expenses.Clear(); // cleares the expenses values so that it wont add the values when you resume the app
-
+            
         }
 
     

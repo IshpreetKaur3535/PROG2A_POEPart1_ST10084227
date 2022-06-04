@@ -104,6 +104,7 @@ namespace POEPart1Version2
             }
             //expensesList[4] = monthlyCellphoneCost; // store monthly cell phone cost value into array
             expenses.Add(monthlyCellphoneCost); // stores the value of monthly cell phone cost to list
+
             Console.Write("\t Other expences: ");
             try
             {

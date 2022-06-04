@@ -14,3 +14,11 @@ C:\Users\jatinder\source\repos\POEPart1Version2 - Copy\POEPart1Version2\obj\Debu
 C:\Users\jatinder\source\repos\POEPart1Version2 - Copy\POEPart1Version2\obj\Debug\POEPart1Version2.csproj.CoreCompileInputs.cache
 C:\Users\jatinder\source\repos\POEPart1Version2 - Copy\POEPart1Version2\obj\Debug\POEPart1Version2.exe
 C:\Users\jatinder\source\repos\POEPart1Version2 - Copy\POEPart1Version2\obj\Debug\POEPart1Version2.pdb
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\bin\Debug\POEPart1Version2.exe.config
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\bin\Debug\POEPart1Version2.exe
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\bin\Debug\POEPart1Version2.pdb
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\obj\Debug\POEPart1Version2.csproj.AssemblyReference.cache
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\obj\Debug\POEPart1Version2.csproj.SuggestedBindingRedirects.cache
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\obj\Debug\POEPart1Version2.csproj.CoreCompileInputs.cache
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\obj\Debug\POEPart1Version2.exe
+C:\Users\jatinder\source\repos\IshpreetKaur_POEPart2\POEPart1Version2\obj\Debug\POEPart1Version2.pdb

@@ -46,9 +46,9 @@ namespace POEPart1Version2
             {
                 throw;
             }
-
-
         }
+
+
         // return method to calculate the totalExpenses
         public double totalExpenseCalculation()
         {
